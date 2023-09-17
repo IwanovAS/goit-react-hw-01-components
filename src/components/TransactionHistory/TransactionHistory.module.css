@@ -1,0 +1,32 @@
+.transactionHistory {
+    width: 340px;
+    margin: 0px auto 100px auto;
+    border: 1px solid black;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+th {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: aliceblue;
+    background-color: maroon;
+}
+
+td {
+    text-align: center;
+    padding: 5px 10px;
+    border: 1px solid black;
+}
+
+td::first-letter {
+    text-transform: uppercase;
+}
+
+tr:nth-child(even) {
+    background-color: rgba(158, 158, 158, 0.589);
+}
+
+tr:hover {
+background-color: maroon;
+color: aliceblue;
+}
