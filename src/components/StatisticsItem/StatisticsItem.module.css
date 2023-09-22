@@ -7,7 +7,7 @@
     width: calc(100% / 5);
     border: 1px solid rgb(62, 54, 54);
     border-radius: 7px;
-    box-shadow: rgba(0, 0, 0, 0.35);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .label {
