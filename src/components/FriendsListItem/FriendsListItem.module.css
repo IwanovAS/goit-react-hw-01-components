@@ -22,10 +22,10 @@
   font-weight: bold;
 }
 
-.isOnLine {
+.isOnline {
   background-color: green;
 }
 
-.offLine {
+.offline {
   background-color: red;
 }

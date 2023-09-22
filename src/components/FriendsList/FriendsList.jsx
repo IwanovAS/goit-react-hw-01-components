@@ -3,14 +3,14 @@ import css from './FriendsList.module.css';
 
 export const FriendsList = ({ friends }) => {
   return (
-    <ul className={css.friendsList}>
+    <ul className={css.friendList}>
       {friends.map(friend => {
         return (
           <FriendsListItem
             key={friend.id}
             avatar={friend.avatar}
             name={friend.name}
-            isOnLine={friend.isOnLine}
+            isOnline={friend.isOnline}
           ></FriendsListItem>
         );
       })}
