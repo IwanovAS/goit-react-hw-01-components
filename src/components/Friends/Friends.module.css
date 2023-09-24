@@ -1,7 +1,8 @@
-.statistics {
+.friend-list {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  row-gap: 10px;
+  padding: 20px 10px;
   max-width: 320px;
   margin: 0px auto 40px auto;
   background-color: antiquewhite;
@@ -10,32 +11,37 @@
   box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
     rgba(0, 0, 0, 0.22) 0px 10px 10px;
 }
-.title {
-  display: flex;
-  justify-content: center;
-  text-transform: uppercase;
-  padding-top: 30px;
-  padding-bottom: 30px;
-}
-.statList {
-  display: flex;
-  justify-content: center;
-}
+
 .item {
   display: flex;
-  flex-direction: column;
   align-items: center;
+  gap: 10px;
+  background-color: azure;
   width: 100%;
   border: 1px solid black;
   border-radius: 5px;
-  color: white;
 }
-.label {
-  font-size: 16px;
-  font-weight: bold;
-  padding: 10px 0px;
+
+.status {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin-left: 10px;
 }
-.percentage {
+
+.status.online {
+  background-color: green;
+}
+
+.status.offline {
+  background-color: red;
+}
+
+.avatar {
+  margin: 10px 20px;
+}
+
+.name {
   font-size: 20px;
-  padding-bottom: 10px;
+  font-weight: bold;
 }
